@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="generator" content="Primo" />
+      <title>Sorin Radu - Prevenirea si Stingerea Incendiilor</title><!-- HEAD_svelte-1t7ohez_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="icon" type="image/png" sizes="32x32" href="https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/prisaka/assets/logoipsum-277.svg"><link rel="preconnect" href="https://fonts.bunny.net"><meta name="description" content="Soluții profesionale personalizate pentru prevenirea incendiilor"><style>/* Reset & standardize default styles */
+@import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
+
+/* Design tokens (apply to components) */
+:root {
+  /* Custom theme options */
+  --color-accent: #004700;
+
+  /* Base values */
+  --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  --border-radius: 0;
+  --border-color: #e0e1e1;
+}
+
+/* Root element (use instead of `body`) */
+#page {
+  font-family: system-ui, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  background: white;
+}
+
+/* Elements */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+a.link {
+  line-height: 1.3;
+
+  border-bottom: 2px solid var(--color-accent);
+  transform: translateY(-2px); /* move link back into place */
+  transition: var(--transition, 0.1s border);
+}
+
+a.link:hover {
+    border-color: transparent;
+  }
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.15;
+
+}
+
+.button {
+  color: white;
+  background: var(--color-accent, rebeccapurple);
+  border-radius: 0;
+  padding: 18px 24px;
+  transition: var(--transition, 0.1s box-shadow);
+  border: 0;
+}
+
+/* reset */
+
+.button:hover {
+    box-shadow: 0 0 0 2px var(--color-accent, rebeccapurple);
+  }
+
+.button.inverted {
+    background: transparent;
+    color: var(--color-accent, rebeccapurple);
+  }
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+.content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+.content img {
+    width: 100%;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+.content a.link {
+    line-height: 1.3;
+    font-weight: 500;
+    border-bottom: 2px solid var(--color-accent);
+    transform: translateY(-2px); /* move link back into place */
+    transition: var(--transition, 0.1s border);
+  }
+.content a.link:hover {
+      border-color: transparent;
+    }
+.content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content ul {
+    list-style: disc;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content ol {
+    list-style: decimal;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content blockquote {
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--color-accent);
+  }
+</style><!-- HEAD_svelte-1t7ohez_END -->
+      <style>header.svelte-19bt6nw.svelte-19bt6nw{color:white;background-size:cover;display:grid;gap:20rem}.section-container.svelte-19bt6nw.svelte-19bt6nw{width:100%;display:flex;justify-content:space-between;align-items:center;padding-top:1rem;padding-bottom:1rem}.logo.svelte-19bt6nw.svelte-19bt6nw{font-size:1.5rem;font-weight:600;line-height:1.2}.desktop-nav.svelte-19bt6nw.svelte-19bt6nw{display:none;align-items:center;justify-content:space-between;width:100%}.desktop-nav.svelte-19bt6nw nav.svelte-19bt6nw{display:flex;gap:2rem}.desktop-nav.svelte-19bt6nw nav a.link.svelte-19bt6nw{border-color:transparent;transition:border-color 0.1s;font-size:0.95rem}.desktop-nav.svelte-19bt6nw nav a.link.svelte-19bt6nw:hover,.desktop-nav.svelte-19bt6nw nav a.link .active.svelte-19bt6nw{border-color:initial}@media(min-width: 800px){.desktop-nav.svelte-19bt6nw.svelte-19bt6nw{display:flex
+}}.mobile-nav.svelte-19bt6nw.svelte-19bt6nw{display:flex;align-items:center;justify-content:space-between;width:100%;font-weight:500}@media(min-width: 800px){.mobile-nav.svelte-19bt6nw.svelte-19bt6nw{display:none
+}}.headline.svelte-19bt6nw.svelte-19bt6nw{font-size:clamp(2rem, 10vw, 3.5rem);max-width:800px;padding-bottom:2rem;line-height:1.1}#popup.svelte-19bt6nw.svelte-19bt6nw{color:#222;font-size:1.25rem;display:grid;gap:1rem;position:absolute;text-align:center;background-color:var(--background-color, white);box-shadow:var(--box-shadow, 0px 4px 30px rgba(0, 0, 0, 0.1));border-radius:var(--border-radius);inset:0.5rem;bottom:initial;padding:2rem;z-index:1}#popup.svelte-19bt6nw button#close.svelte-19bt6nw{position:absolute;right:1rem;top:1rem}
+section.svelte-y854m2.svelte-y854m2{display:grid;place-items:center;max-width:var(--inner-max-width, 900px);padding-bottom:3rem}.heading.svelte-y854m2.svelte-y854m2{text-align:center;text-wrap:balance;margin-bottom:3rem}figure.svelte-y854m2.svelte-y854m2{display:grid;gap:0.25rem;margin-bottom:2.5rem}figure.svelte-y854m2 img.svelte-y854m2{width:100px;height:100px;-o-object-fit:cover;object-fit:cover;border-radius:100%}.content.svelte-y854m2.svelte-y854m2{line-height:1.5;font-family:var(--body-font);color:#2d3339}.content.svelte-y854m2 p{margin-bottom:1rem}
+footer.svelte-u1zmy0.svelte-u1zmy0{background:#2b312b;color:white}.section-container.svelte-u1zmy0.svelte-u1zmy0{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4rem}.content.svelte-u1zmy0.svelte-u1zmy0{margin:initial;padding:0;line-height:1.1}.nav-items.svelte-u1zmy0.svelte-u1zmy0{display:flex;flex-wrap:wrap;gap:4rem}.nav-items.svelte-u1zmy0 ul.svelte-u1zmy0{display:grid;gap:0.5rem}.nav-items.svelte-u1zmy0 ul .link.svelte-u1zmy0{border-bottom:2px solid white}.nav-items.svelte-u1zmy0 ul .link.svelte-u1zmy0:hover{border-color:transparent}.nav-items.svelte-u1zmy0 h3.svelte-u1zmy0{font-weight:500;font-size:1.5rem;margin-bottom:1rem}</style>
+    </head>
+    <body id="page">
+       
+<div class="section" id="section-027d45f6"><header style="background-image:url('https://www.readtraining.co.uk/wp-content/uploads/2020/06/slider1.jpg')" role="img" aria-label="Activitati de consultanta protectie civila si prevenirea si stingerea incendiilor" class="svelte-19bt6nw"><div class="section-container svelte-19bt6nw"><div class="desktop-nav svelte-19bt6nw"><a href="/" class="logo svelte-19bt6nw">🧯 SORIN RADU PFA</a>
+      <nav class="svelte-19bt6nw"><a class="link svelte-19bt6nw" href="/unitate-protejata">Unitate Protejata</a><a class="link svelte-19bt6nw" href="/consiliere-si-planificare">Consiliere si Planificare</a><a class="link svelte-19bt6nw" href="/decizii-si-reglementari">Decizii si Reglementari</a><a class="link svelte-19bt6nw" href="/control-evaluare-interventie">Control Eveluare Interventie</a><a class="link svelte-19bt6nw" href="/registre-control">Registre de control</a></nav></div>
+    <div class="mobile-nav svelte-19bt6nw"><a href="/" class="logo svelte-19bt6nw">🧯 SORIN RADU PFA</a>
+      <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START --><rect width="18" height="2" x="3" y="11" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" fill="currentColor" rx=".95" ry=".95"/><!-- HTML_TAG_END --></svg></button>
+      </div></div>
+  <div class="section-container svelte-19bt6nw"><h1 class="headline svelte-19bt6nw">Sorin Radu PFA - Servicii oferite</h1></div></header></div> 
+<div class="section" id="section-744daf78"><section class="section-container svelte-y854m2"><h1 class="heading svelte-y854m2">Alte servicii</h1>
+  <figure class="svelte-y854m2"><img src="data:image/jpeg;base64,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" alt="Decizii si reglementari" class="svelte-y854m2"></figure>
+  <div class="content svelte-y854m2"><!-- HTML_TAG_START --><ul><li><p>Efectuarea controalelor interne la locurile de muncă, cu informarea, în scris, a angajatorului asupra deficienţelor constatate şi asupra măsurilor propuse pentru remedierea acestora, semestrial. OMAI 163/2007 art 5 lit d)</p></li><li><p>Elaborarea conceptiei si participarea la exercitiile de evacuare, interventie, a raportului privind exercitiul conform OMAI 163/2007 art 107 e) 144</p></li><li><p>Elaborarea procedurii de instruire</p></li><li><p>Elaborarea procedurii si calculul riscului de arson in conformitate cu prevederile OMAI nr.234/2010</p></li><li><p>Elaborarea raportului de evaluare a capacităţii de apărare înpotriva incendiilor în domeniul SU , OMAI 163/2007 art 18 c) ; art. 151.</p></li><li><p>Instructiuni proprii AII ( activitate tesa, spatii ……, spatii depozitare, centrale termice, etc) conform Leg 307/2006 art. 18 lit g) OMAI 163/2007 art 17 lit b) art.33 (1)</p></li><li><p>Intocmire lista cu substanţele periculoase, clasificate potrivit legii conform Leg 307/2006 art.19 f) OMAI 163/2007 art 18 p) in baza datelor furnizate de catre beneficiar</p></li><li><p>Intocmirea organizarii AII pe locuri de munca OMAI 163/2007 art 23</p></li><li><p>Participare in comisia constituita in vederea cercetarii cauzelor declansarii inceputurilor de incendii sau incendii Leg. 307 art.19 lit p); OMAI 163/2007 art.5 lit l).</p></li><li><p>Programe/planuri cuprinzând măsuri şi acţiuni proprii sau rezultate în urma constatărilor autorităţilor de control pentru respectarea reglementărilor în domeniu.dispuse de catre reprezentantii Insectoratul pentru Situatii de Urgenta , Prahova OMAI 163/2007 art 18 s)</p></li><li><p>Tematica Instruire Instructaj introductiv general OMAI 712/2005</p></li><li><p>Tematica Instruire Instructaj la locul de munca pe functii OMAI 712/2005</p></li><li><p>Tematica Instruire Instructaj periodic echipe de prima interventie OMAI 712/2005</p></li><li><p>Tematica Instruire Instructaj periodic pe functii categorii de personal OMAI 712/2005</p></li><li><p>Tematica Instruire pentru personalul din afara operatorului economic ce se afla in societate in vederea efectuarii de prestari servicii OMAI 712/2005 si intocmire fisa colectiva</p></li><li><p>Teme instruire echipe de prima interventie ( stingerea incendiilor, deblocaresalvare, managementul SU in caz de cutremur) OMAI 712/2005</p></li></ul><!-- HTML_TAG_END --></div></section></div> 
+<div class="section" id="section-246ebab6"><footer class="svelte-u1zmy0"><div class="section-container svelte-u1zmy0"><div class="content svelte-u1zmy0"><!-- HTML_TAG_START --><h3>Sorin Radu PFA 🔥<br></h3><p>🏢 F 29/597/2007 Cod unic de inregistrare 21732882, Neplatitor de TVA.</p><p>☎️ Telefon : 0727257756</p><p>📧 Email : <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="mailto:sorinradu67@yahoo.com">sorinradu67@yahoo.com</a></p><!-- HTML_TAG_END --></div>
+    <div class="nav-items svelte-u1zmy0"></div></div></footer></div> 
+
+      <script type="module">
+      import('/_symbols/53784089-dad0-4e55-9728-e4bbfe72aa36.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-027d45f6'),
+              hydrate: true,
+              props: {"background":{"alt":"Activitati de consultanta protectie civila si prevenirea si stingerea incendiilor","src":"https://www.readtraining.co.uk/wp-content/uploads/2020/06/slider1.jpg","url":"https://www.readtraining.co.uk/wp-content/uploads/2020/06/slider1.jpg","size":null},"headline":"Sorin Radu PFA - Servicii oferite","logo":{"image":{"alt":"","src":"","url":"","size":null},"title":"🧯 SORIN RADU PFA"},"site_nav":[{"link":{"url":"/unitate-protejata","label":"Unitate Protejata","active":false}},{"link":{"url":"/consiliere-si-planificare","label":"Consiliere si Planificare","active":false}},{"link":{"url":"/decizii-si-reglementari","label":"Decizii si Reglementari","active":false}},{"link":{"url":"/control-evaluare-interventie","label":"Control Eveluare Interventie","active":false}},{"link":{"url":"/registre-control","label":"Registre de control","active":false}}]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    </script>
+    </body>
+  </html>
+  
